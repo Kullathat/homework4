@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgb(243, 9, 9);
+    min-width: 599px;
+    background-image: url(http://picsum.photos/id/600/1024/800);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+a {
+    text-decoration: none;
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+.wrap {
+    width: 599px;
+    margin: auto;
+}
+
+header {
+    padding: 70px 0;
+}
+#content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(246, 241, 241);
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 30px;
+
+}
+.wrap h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.info  {
+    margin-top: -50px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: rgb(244, 243, 243);
+    height: 10px;
+}
+
+.boxfont {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 25px;
+    letter-spacing: 5px;
+    font-size: 25px;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(135, 134, 134);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+
+    color: rgb(252, 252, 252);
+}   
+
+.container {
+  margin: 100px auto;
+  width: 500px;
+  text-align: center;
+}
+
+.progress {
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.25);
+
+}
+
+.progress_bar {	
+  height: 10px;
+  border-radius: 4px; 
+}
+
+.progress_bar { 	
+  background-color: rgb(255, 253, 253); 
+  width: 100%; 
+  background-image: linear-gradient(
+        45deg, white 25%, 
+        transparent 25%, transparent 50%, 
+        white 50%, white 75%,
+        transparent 75%, transparent); 
+  animation: animation   5s;
+  
+}
+
+@keyframes animation {
+     from { width: 0 }
+     to   { width: 100% }
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 1rem;
+}
+.pic img {  
+    height: 50px;
+
+}
